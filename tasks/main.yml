@@ -1,2 +1,4 @@
 ---
-# tasks file for ansible-flush-handlers
+# tasks file for flush-handlers
+- name: "Flush the handlers!"
+  meta: flush_handlers
